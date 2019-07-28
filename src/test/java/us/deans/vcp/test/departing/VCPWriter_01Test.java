@@ -11,7 +11,7 @@ public class VCPWriter_01Test {
 	public void testVCPWriter_01() {
 		
 		VCPWriter vcpw = new VCPWriter_01();
-		vcpw.writeDeparting();
+		vcpw.writeDeparting("Hello World!");
 		assert(true);
 		
 	}
