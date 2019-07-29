@@ -17,7 +17,6 @@ public class Application {
 		message = reader.readArriving();
 		writer.writeDeparting(message);
 		
-		
 	}
 
 }
